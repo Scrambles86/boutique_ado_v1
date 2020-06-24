@@ -1,15 +1,16 @@
 html {
-    height : 100%;
+    height: 100%;
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center fixed;
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
 
+/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -23,7 +24,7 @@ body {
 }
 
 .main-logo-link {
-    width : fit-content;
+    width: fit-content;
 }
 
 .shop-now-button {
@@ -55,16 +56,16 @@ body {
     border: 1px solid black !important;
 }
 
-/*---------------------------------- Media Queries */
+/* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens  */
-@media (min-width: 992px) {
-    .container {
-        max-width: 80%;
-    }
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }
 
-/* Fixed top navbar only on medium and up  */
+/* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -74,7 +75,7 @@ body {
         z-index: 1030;
     }
 
-    .heading-container {
+    .header-container {
         padding-top: 164px;
     }
 }
