@@ -1,0 +1,2 @@
+import os
+os.environ.setdefault("STRIPE_SECRET_KEY", "sk_test_51H0qbCAyzNETnnX7ZRBU5JU6rUyUf6T8fpnWDhmS0SrJVDmgkzuM1mE5ru0OJyP9NuBC6jA3rPkkTyxe5LPg4Lpc00Z8ATuEYV")
